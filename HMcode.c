@@ -279,22 +279,32 @@ void Onlinepayment()
                         gets(complaints);
                         printf("\nThank you for the remark. \nThe Customer has been checked out and room no.%d is empty now. \nThank You.",croom);
                         Sleep(1000);
+			main();
                         break;
+			
                 case 2: printf("\nThank you for the remark. \nThe Customer has been checked out and room no.%d is empty now. \nThank You.",croom);
                         Sleep(1000);
+			main();
                         break;
+
                 default: printf("\nInvalid option!");
+			main();
                 }
                 break;
         case 2: printf("\nPlease pay the bill.");
                 Sleep(1000);
+		main();
                 break;
+		
         default: printf("\nInvalid option!");
+		
+		main();
          }
     }
     else
     {
         printf("\nAccess denied!\n\n");
         Sleep(1000);
+	main();
     }
  }
