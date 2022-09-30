@@ -2,7 +2,6 @@
 #include <windows.h>
 void getaroom();
 void restaurant();
-//passcode=8937
 void checkout();
 void Onlinepayment();
 int ser,age,date,room,food,amt=0,phn,pay,items,R,paytm,confirm,printexit,ppin,passcd,passwd=8937,comp,billpaid,croom;
@@ -116,19 +115,19 @@ void restaurant()
         printf("\n\t ------------------------------------");
         printf("\n\t |SNo.|     Item Name       | Price |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 1. | WATER BOTTLE(500Ml) | Rs.15 |");
+        printf("\n\t | 1. | WATER BOTTLE(500Ml) | Rs.25 |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 2. | TEA (1 CUP)         | Rs.10 |");
+        printf("\n\t | 2. | TEA (1 CUP)         | Rs.20 |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 3. | SNACKS(1PKT)        | Rs.20 |");
+        printf("\n\t | 3. | SNACKS(1PKT)        | Rs.30 |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 4. | BREAKFAST( 1PLATE)  | Rs.90 |");
+        printf("\n\t | 4. | BREAKFAST( 1PLATE)  | Rs.100 |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 5. | LUNCH( 1PLATE)      | Rs.120|");
+        printf("\n\t | 5. | LUNCH( 1PLATE)      | Rs.130|");
         printf("\n\t ------------------------------------");
         printf("\n\t | 6. | DINNER( 1PLATE)     | Rs.200|");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 7. | DESSERT             | Rs.50 |");
+        printf("\n\t | 7. | DESSERT             | Rs.250 |");
         printf("\n\t ------------------------------------");
         printf("\nHow many types of items you want ? ");
         scanf("%d",&items);
@@ -192,7 +191,7 @@ void restaurant()
                         k=k+1;
                         break;
                 case 7: amt = amt + b[i]*50;
-                       	printf("\n\t | %d. | DESSERT             |   Rs.50  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*50));
+                       	printf("\n\t | %d. | DESSERT             |   Rs.250  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*50));
                     	printf("\n\t -------------------------------------------------------------------");
                         k=k+1;
                         break;
