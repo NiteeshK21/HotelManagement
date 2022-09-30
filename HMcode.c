@@ -126,7 +126,7 @@ void restaurant()
         printf("\n\t ------------------------------------");
         printf("\n\t | 5. | LUNCH( 1PLATE)      | Rs.120|");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 6. | DINNER( 1PLATE)     | Rs.150|");
+        printf("\n\t | 6. | DINNER( 1PLATE)     | Rs.200|");
         printf("\n\t ------------------------------------");
         printf("\n\t | 7. | DESSERT             | Rs.50 |");
         printf("\n\t ------------------------------------");
