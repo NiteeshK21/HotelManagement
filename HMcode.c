@@ -259,6 +259,12 @@ void Onlinepayment()
  {
      printf("\n\t CUSTOMER CHECKOUT WINDOW");
      printf("\nEnter staff passcode: ");
+	scanf("%d",&passcd);
+     if (passcd==passwd)
+     {
+         printf("\nAuthentication Granted");
+         printf("\n\nEnter Room Number: ");
+         scanf("%d",&croom);
 
          printf("\nBill has been paid ? \n   1.Yes. \n   2.No.\n");
          scanf("%d",&billpaid);
