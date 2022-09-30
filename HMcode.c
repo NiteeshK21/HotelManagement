@@ -162,27 +162,27 @@ void restaurant()
             switch(a[i])
             {
                 case 1: amt = amt + b[i]*15;
-                        printf("\n\t | %d. | WATER BOTTLE(500Ml) |   Rs.15  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*15));
+                        printf("\n\t | %d. | WATER BOTTLE(500Ml) |   Rs.25  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*15));
 	                    printf("\n\t -------------------------------------------------------------------");
                         k=k+1;
                         break;
                 case 2: amt = amt + b[i]*10;
-                        printf("\n\t | %d. | TEA (1 CUP)         |   Rs.10  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*10));
+                        printf("\n\t | %d. | TEA (1 CUP)         |   Rs.20  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*10));
 	                    printf("\n\t -------------------------------------------------------------------");
                         k=k+1;
                         break;
                 case 3: amt = amt + b[i]*20;
-                       	printf("\n\t | %d. | SNACKS(1PKT)        |   Rs.20  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*20));
+                       	printf("\n\t | %d. | SNACKS(1PKT)        |   Rs.30  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*20));
                     	printf("\n\t -------------------------------------------------------------------");
                         k=k+1;
                         break;
                 case 4: amt = amt + b[i]*90;
-                    	printf("\n\t | %d. | BREAKFAST( 1PLATE)  |   Rs.90  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*90));
+                    	printf("\n\t | %d. | BREAKFAST( 1PLATE)  |   Rs.100  |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*90));
 	                    printf("\n\t -------------------------------------------------------------------");
                         k=k+1;
                         break;
                 case 5: amt = amt + b[i]*120;
-                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.120 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
+                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.130 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
 	                    printf("\n\t ------------------------------------------------------------------");
                         k=k+1;
                         break;
