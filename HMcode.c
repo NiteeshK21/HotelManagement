@@ -1,64 +1,18 @@
+//starting of program
 #include <stdio.h>
 #include <windows.h>
+// added stdio.h and windows.h header files stdio.h for i/o operations and windows.h for some functions involving arithmetic. functions
 void getaroom();
 void restaurant();
 void checkout();
 void Onlinepayment();
+//declared functions in three lines
 int ser,age,date,room,food,amt=0,phn,pay,items,R,paytm,confirm,printexit,ppin,passcd,passwd=8937,comp,billpaid,croom;
 char name[50],city[50],rname[50],complaints[2000];
-for (int i = 0; i < expr.length(); i++) 
-    {
-        if (expr[i] == '(' || expr[i] == '['
-            || expr[i] == '{') 
-        {
-            // Push the element in the stack
-            s.push(expr[i]);
-            continue;
-        }
-  
-        // IF current current character is not opening
-        // bracket, then it must be closing. So stack
-        // cannot be empty at this point.
-        if (s.empty())
-            return false;
-  
-        switch (expr[i]) {
-        case ')':
-              
-            // Store the top element in a
-            x = s.top();
-            s.pop();
-            if (x == '{' || x == '[')
-                return false;
-            break;
-  
-        case '}':
-  
-            // Store the top element in b
-            x = s.top();
-            s.pop();
-            if (x == '(' || x == '[')
-                return false;
-            break;
-  
-        case ']':
-  
-            // Store the top element in c
-            x = s.top();
-            s.pop();
-            if (x == '(' || x == '{')
-                return false;
-            break;
-        }
-    }
-  
-    // Check Empty Stack
-    return (s.empty());
-}
-int main()
+int main() //starting of maihn funnction
 {
     printf("\n\n\t   WELCOME TO HOTEL NSR\nWe have the following services for you:\n\n   1.GET A ROOM.\n\n   2.MOVE TO RESTAURANT .\n\n   3.CHECKOUT CUSTOMER(only for staff).\n\nPlease enter your preferred choice: ");
-    scanf("%d",&ser);
+    scanf("%d",&ser); //taking ser input from user
     switch (ser)
     {
         case 1: getaroom();
@@ -70,7 +24,7 @@ int main()
         default: printf("Invalid Option.");
     }
 }
-void getaroom()
+void getaroom() //definition of getaroom() function
 {
   printf("\nEnter your name: ");
   getchar();
