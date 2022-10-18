@@ -55,6 +55,26 @@ void getaroom() //definition of getaroom() function
                     Sleep(2000);
                     main();}
                 break;
+	// C implementation to check if a given
+	char str[] = { "abbba" };
+
+	// Start from leftmost and
+        // rightmost corners of str
+	int l = 0;
+	int h = strlen(str) - 1;
+
+	// Keep comparing characters
+	// while they are same
+	while (h > l) {
+		if (str[l++] != str[h--]) {
+			printf("%s is not a palindrome\n", str);
+			return 0;
+			// will return from here
+			}	
+	}
+
+	printf("%s is a palindrome\n", str);
+	}
 
         case 2: printf("\nYOUR ROOM NUMBER is 201. \nDo you want a subscription to food services (@Rs1000/-per day per person)? \n1.Yes. \n2.No. \nPlease enter your choice.");
                 scanf("%d",&food);
