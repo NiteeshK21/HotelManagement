@@ -24,13 +24,6 @@ int main() //starting of maihn funnction
         default: printf("Invalid Option.");
     }
 }
-// use rand() function to generate the number  
-printf (" The random number is: %d", rand());  
-printf ("\n The random number is: %d", rand());  
-
-printf (" \n The random number is: %d", rand());  
-printf ("\n The random number is: %d", rand());  
-getch();
 void getaroom() //definition of getaroom() function
 {
   printf("\nEnter your name: ");
