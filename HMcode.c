@@ -152,6 +152,20 @@ void restaurant()
         printf("\nEnter your Name: ");
         getchar();
         gets(rname);
+	Add_entry=tk.Entry(win,width=50,textvariable=Add_var)
+        Add_entry.grid(row=1,column=1)
+        In_label=tk.Label(win,text="Enter Checkin Date",font=("Comic Sans MS",15))
+        In_label.grid(row=2,column=0,sticky=tk.W)
+        In_var=tk.StringVar()
+        In_entry=tk.Entry(win,width=50,textvariable=In_var)
+        In_entry.grid(row=2,column=1)
+        Out_label=tk.Label(win,text="Enter CheckOut Date",font=("Comic Sans MS",15))
+        Out_label.grid(row=3,column=0,sticky=tk.W)
+        Out_var=tk.StringVar()
+        Out_entry=tk.Entry(win,width=50,textvariable=Out_var)
+        Out_entry.grid(row=3,column=1)
+        Room_label=tk.Label(win,text="We have the following Rooms for you,Choose one:-",font=("Comic Sans MS",25),bg="black",fg="white")
+        Room_label.grid(row=4,column=1,sticky=tk.W)
         printf("\nEnter your Phone Number: ");
         scanf("%d",&phn);
         printf("\n\t\t\t    EATERY BILL \n\t  Customer's name: %s \n\t  Phone number: %d",rname,phn);
