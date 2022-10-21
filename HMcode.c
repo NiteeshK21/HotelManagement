@@ -184,7 +184,7 @@ void restaurant()
                         k=k+1;
                         break;
                 case 5: amt = amt + b[i]*120;
-                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.130 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
+                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.150 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
 	                    printf("\n\t ------------------------------------------------------------------");
                         k=k+1;
                         break;
