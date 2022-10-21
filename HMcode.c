@@ -118,7 +118,7 @@ void restaurant()
         printf("\n\t ------------------------------------");
         printf("\n\t |SNo.|     Item Name       | Price |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 1. | WATER BOTTLE(500Ml) | Rs.25 |");
+        printf("\n\t | 1. | WATER BOTTLE(1000ML) | Rs.30|");
         printf("\n\t ------------------------------------");
         printf("\n\t | 2. | TEA (1 CUP)         | Rs.20 |");
         printf("\n\t ------------------------------------");
@@ -149,7 +149,7 @@ void restaurant()
                 Sleep(1000);
                 restaurant();}
         }
-        printf("\nEnter your name: ");
+        printf("\nEnter your Name: ");
         getchar();
         gets(rname);
         printf("\nEnter your Phone Number: ");
@@ -184,7 +184,7 @@ void restaurant()
                         k=k+1;
                         break;
                 case 5: amt = amt + b[i]*120;
-                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.130 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
+                        printf("\n\t | %d. | LUNCH( 1PLATE)      |   Rs.150 |      %d      |     Rs.%d    |",k+1,b[i],(b[i]*120));
 	                    printf("\n\t ------------------------------------------------------------------");
                         k=k+1;
                         break;
