@@ -130,7 +130,7 @@ void restaurant()
         printf("\n\t ------------------------------------");
         printf("\n\t | 6. | DINNER( 1PLATE)     | Rs.200|");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 7. | DESSERT             | Rs.250 |");
+        printf("\n\t | 7. | DESSERT             | Rs.200 |");
         printf("\n\t ------------------------------------");
         printf("\nHow many types of items you want ? ");
         scanf("%d",&items);
