@@ -40,7 +40,7 @@ void getaroom() //definition of getaroom() function
   scanf("%d",&room);
   switch(room)
     {
-        case 1: printf("\nYOUR ROOM NUMBER is 101. \nDo you want a subscription to food services (@Rs1000/-per day per person)? \n1.Yes. \n2.No. \nPlease enter your choice.");
+        case 1: printf("\nYOUR ROOM NUMBER is 1001. \nDo you want a subscription to food services (@Rs1000/-per day per person)? \n1.Yes. \n2.No. \nPlease enter your choice.");
                  scanf("%d",&food);
                 if (food == 1){
                     printf("\nFood charges will be added to your bill. \nROOM NUMBER - 101. \nThank you.");
