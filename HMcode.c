@@ -122,7 +122,7 @@ void restaurant()
         printf("\n\t ------------------------------------");
         printf("\n\t | 2. | TEA (1 CUP)         | Rs.20 |");
         printf("\n\t ------------------------------------");
-        printf("\n\t | 3. | SNACKS(1PKT)        | Rs.30 |");
+        printf("\n\t | 3. | SNACKS(1PKT)        | Rs.40 |");
         printf("\n\t ------------------------------------");
         printf("\n\t | 4. | BREAKFAST( 1PLATE)  | Rs.100 |");
         printf("\n\t ------------------------------------");
